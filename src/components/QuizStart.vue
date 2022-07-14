@@ -1,6 +1,10 @@
 <template>
   <div class="main">
-    <img alt="県章クイズのlogo" src="../assets/県章一覧.png" class="image" />
+    <img
+      alt="県章クイズのlogo"
+      :src="require(`@/assets/県章一覧.png`)"
+      class="image"
+    />
     <router-link to="/prefecSymbolQuiz" class="btn">県章クイズ</router-link>
   </div>
 </template>
